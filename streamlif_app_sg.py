@@ -80,5 +80,5 @@ fruityvice_replay = requests.get("https://fruityvice.com/api/fruit/" + "jackfrui
 streamlit.write('Thanks for adding ', add_my_fruit)
 
 
-my_cur.execute("insert into fruit_load_list values ('from streamlit')")
+#my_cur.execute("insert into fruit_load_list values ('from streamlit')")
 
