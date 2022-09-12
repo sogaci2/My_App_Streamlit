@@ -42,7 +42,7 @@ try:
         streamlit.dataframe(fruityvice_normalized)
         
 #streamlit.text(fruityvice_response.json())
-except URLEroor as e:
+except URLError as e:
     streamlit.error()
 
 
